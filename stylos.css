@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Georgia, "Geneva", sans-serif;
+  font-size: 1dvw;
+  color: #333333;
+  line-height: 1.4;
+  list-style: none;
+}
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+* img {
+  max-width: 100%;
+  height: auto;
+}
+* a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99dvh;
+}
+
+.calculadora {
+  border: 0.1dvw solid gray;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 22dvw;
+}
+.calculadora .resultado {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 2dvh 1dvw;
+  padding: 0.5dvh 0.5dvw;
+  border: 0.1dvw solid gray;
+  text-align: right;
+  height: 10dvh;
+  font-size: 2.5dvw;
+}
+.calculadora .teclas {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculadora .teclas .digitos {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1dvh 0.5dvw;
+  gap: 1dvw;
+}
+.calculadora .teclas .digitos button {
+  width: 4dvw;
+  height: 6dvh;
+}
+.calculadora .teclas .digitos .igual {
+  background-color: aquamarine;
+  width: 9dvw;
+  height: 6dvh;
+}
+.calculadora .teclas .simbolos {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1dvh 1dvw;
+  gap: 2dvh;
+}
+.calculadora .teclas .simbolos button {
+  width: 3.5dvw;
+  height: 6dvh;
+}
+
+/* Small devices such as large phones (640px and up) */
+/* Medium devices such as tablets (768px and up) */
+/* Large devices such as laptops (1024px and up) */
+/* Largest devices such as desktops (1280px and up) *//*# sourceMappingURL=stylos.css.map */
